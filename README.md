@@ -30,5 +30,5 @@ Pastikan kamu sudah menginstall **PHP >= 8.2**, **Composer**, dan **Node.js** di
 
 1. **Clone repositori:**
    ```bash
-   git clone [[https://github.com/username/nama-repo.git](https://github.com/Ainulqodri/sistem-reservasi-futsal.git)]([https://github.com/username/nama-repo.git](https://github.com/Ainulqodri/sistem-reservasi-futsal.git))
+   git clone [[https://github.com/username/nama-repo.git](https://github.com/Ainulqodri/sistem-reservasi-futsal.git))]
    cd nama-repo
