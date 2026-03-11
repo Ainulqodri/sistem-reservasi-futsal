@@ -1,0 +1,36 @@
+# --- Laravel Core ---
+/vendor
+/.env
+/.env.backup
+/.env.production
+/composer.lock
+/package-lock.json
+/yarn.lock
+/public/storage
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+
+# --- Frontend (Tailwind / Alpine) ---
+/node_modules
+/public/build
+/public/hot
+mix-manifest.json
+
+# --- Filament Specific ---
+/public/js/filament
+/public/css/filament
+
+# --- OS & IDE Specific ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.phpunit.result.cache
+
+# --- Midtrans & Fonnte ---
+# Pastikan folder log atau temporary file jika kamu membuatnya secara custom tidak ikut ter-push
+/storage/midtrans_logs/

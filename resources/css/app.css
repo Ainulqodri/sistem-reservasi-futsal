@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Tentukan source Blade dan JS */
+@source "../../resources/views/**/*.blade.php";
+@source "../../resources/js/**/*.js";
+
+/* Font dan tema */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+      "Noto Color Emoji";
+
+  --color-primary: #007a55;
+  --color-secondary: #f5f5f5;
+  --color-tertiary: #00497a;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 14px;
+}
