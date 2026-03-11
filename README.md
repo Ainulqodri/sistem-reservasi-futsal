@@ -30,5 +30,24 @@ Pastikan kamu sudah menginstall **PHP >= 8.2**, **Composer**, dan **Node.js** di
 
 1. **Clone repositori:**
    ```bash
-   git clone [(https://github.com/Ainulqodri/sistem-reservasi-futsal.git)]
-   cd sistem-reservasi-futsal
+   git clone (https://github.com/Ainulqodri/sistem-reservasi-futsal.git)
+   cd nama_folder_projek
+2. **Install dependencies:**
+   ```bash
+   composer install
+   npm install && npm run build
+3. **Setup environment:**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+4. **Konfigurasi API:**
+   ```bash
+   MIDTRANS_SERVER_KEY=your_server_key
+   MIDTRANS_CLIENT_KEY=your_client_key
+   FONNTE_TOKEN=your_fonnte_token
+5. **Migrate & Seed:**
+   ```bash
+   php artisan migrate --seed
+6. **Jalankan Server:**
+   ```bash
+   php artisan serve
