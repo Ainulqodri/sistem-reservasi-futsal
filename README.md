@@ -16,7 +16,7 @@ Aplikasi manajemen booking lapangan futsal modern yang dibangun dengan **TALL St
 
 ## 🛠️ Stack Teknologi
 
-- **Framework:** Laravel 11
+- **Framework:** Laravel 12
 - **Admin Panel:** [Filament PHP](https://filamentphp.com/)
 - **Frontend:** [Livewire](https://livewire.laravel.com/), [Alpine.js](https://alpinejs.dev/), [Tailwind CSS](https://tailwindcss.com/)
 - **Payment:** [Midtrans](https://midtrans.com/)
